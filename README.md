@@ -2,11 +2,27 @@
 
 Парсер собирает данные об олимпиадах и предоставляет их в дисктопном приложении.
 
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=56C0C0&color=008080)](https://www.python.org/)
+
 # Установка проекта локально:
 
-1. клон с гитхаба 
-2. установка вирт окружения
-3. установка зависимостей 
+- Клонируйте репозиторий с проектом на свой компьютер. В терминале из рабочей директории выполните команду:
+```bash
+git clone git@github.com:Darksalomandra/Olimp_search.git
+```
+- Установите и активируйте виртуальное окружение
+
+```bash
+source /venv/bin/activated
+```
+
+- Установить зависимости из файла requirements.txt
+
+```bash
+python -m pip install --upgrade pip
+
+pip install -r requirements.txt
+```
 4. запуск
 
 # Работа с дисктопным приложением:
