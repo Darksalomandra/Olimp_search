@@ -129,10 +129,10 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>616</x>
-      <y>72</y>
+      <x>610</x>
+      <y>80</y>
       <width>291</width>
-      <height>31</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -144,7 +144,7 @@
      <string>Просмотр всех сохранённых олимпиад</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_search3">
     <property name="geometry">
      <rect>
       <x>704</x>
@@ -154,7 +154,38 @@
      </rect>
     </property>
     <property name="text">
-     <string>Все олимпиады</string>
+     <string>Нажми</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>140</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Удаление конкретной олимпиады</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_search4">
+    <property name="geometry">
+     <rect>
+      <x>704</x>
+      <y>165</y>
+      <width>100</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Нажми</string>
     </property>
    </widget>
   </widget>

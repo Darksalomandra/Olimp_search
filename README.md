@@ -23,8 +23,12 @@ python -m pip install --upgrade pip
 
 pip install -r requirements.txt
 ```
-4. запуск
-
+- запуск
+```bash
+cd qt
+python main.py
+```
+   
 # Работа с дисктопным приложением:
 1. Выбор параметров олимпиады:
     - предмет 

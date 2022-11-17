@@ -23,7 +23,10 @@ def parse_text(subject_search, class_search, type_search):
     result_text = list(set(parse(URL)))
     for elem in result_text:
         result_search += elem
-    return result_search
+    if result_search:
+        return result_search
+    else:
+        return "Ничего не нашлось"
 
 
 def parse(url):
@@ -46,10 +49,6 @@ def parse(url):
         })
 
         for comp in comps:
-            result.append(f"Олимпиада: {comp['title']}, класс: {comp['class']}\n")
+            result.append(
+                f"Олимпиада: {comp['title']}, класс: {comp['class']}\n")
     return result
-
-
-
-
-parse_text('Информатика', '11', 'Все')
